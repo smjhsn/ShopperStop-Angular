@@ -1,0 +1,78 @@
+
+input[type="search"]{
+    background-color: aliceblue;
+    color: rgb(95, 95, 95);
+}
+span{
+    font-weight: 130%;
+    font-size: 160%;
+}
+a{
+    color: white;
+}
+.navcenter{
+    margin:auto;
+}
+li{
+    padding: 0 10px;
+}
+h5{
+  color: rgba(0, 0, 0, 0.718);
+}
+.username{
+    font-size: 120%;
+}
+.first-section{
+    /* margin-top: 100px; */
+    padding: 50px;
+    /* width:60%; */
+    margin:100px auto 0;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 0 2px rgb(234, 234, 234),
+                -1px 0 2px rgb(234, 234, 234);
+}
+.image-cart{
+    width: 120px;
+    border-radius: 10px;
+}
+.totalPrice{
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+}
+.button-Check{
+    background-color: #FF9F01;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    transition: background-color,0.3s;
+    
+  }
+  .button-Check:hover{
+    background-color: #FB641B;
+  }
+  .bin{
+    width: 20px;
+  }
+  .bin-button{
+    border: none;
+    background-color: #f7f7f7;
+    border-radius: 40%;
+    padding: 2px;
+    transition: background-color,0.5s;
+    text-align: center;
+  }
+  .bin-button:hover{
+    background-color: #e0e0e0;
+  }
+  .product-row{
+    box-shadow: 1px 1px 2px rgb(216, 216, 216),
+                -1px -1px 2px rgb(216, 216, 216);
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 12px;
+  }

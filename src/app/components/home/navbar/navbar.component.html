@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg  bg-primary  fixed-top" data-bs-theme="dark">
+  <div class="container-fluid ">
+    <a class="navbar-brand p-1" routerLink="/home"><span class="shoppersStop">Shoppers Stop</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 navcenter">
+        <li class="nav-item">
+          <a class="nav-link">Welcome, {{displayUserName}}</a>
+        </li>
+        <li class="nav-item" *ngIf="adminOrNotCart">
+          <!-- <a class="nav-link" (click)="onCartClicked()">Cart</a> -->
+          <a class="nav-link" routerLink="/cart">Cart</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/login" (click)="onLogOut()">{{LogoutOrLogin}}</a>
+        </li>
+        <li class="nav-item" *ngIf="adminOrNot">
+          <a class="nav-link" routerLink="/productInsert" >Product Insert</a>
+        </li>
+      </ul>
+      <form class="d-flex p-1" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" [(ngModel)]="searchBox" name="search" >
+          <button class="btn btn-light" type="submit" (click)="onClick()">Search</button>
+        </form>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,21 @@
+.section-col{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(233, 233, 233);
+    padding: 20px;
+}
+.a-home:link,
+.a-home:visited{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+    font-size: 110%;
+    font-weight: 120%;
+    transition: padding-bottom,border-bottom,0.3s;
+}
+.a-home:active,
+.a-home:hover{
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}

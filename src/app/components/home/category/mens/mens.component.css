@@ -1,0 +1,53 @@
+.image-zoom {
+    overflow: hidden;/* property ensures that any parts of the image that exceed the container's dimensions are hidden.*/
+    display: inline-block;/*property allows the container to adapt to the size of the image.*/
+  }
+.image-zoom img {
+    transition: transform 0.3s ease;
+    padding: 3px;
+  }
+  
+  .image-zoom:hover img {
+    padding: 3px;
+    transform: scale(0.9); /* Increase the scale factor as desired */
+  }
+  .button-add{
+    background-color: #FF9F01;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    transition: background-color,0.3s;
+    width: 90%;
+  }
+  .button-add:hover{
+    background-color: #FB641B;
+  }
+  .section-partion{
+    border:none;
+    padding: 30px;
+    box-shadow: 0 4px 3px rgba(128, 128, 128, 0.351),
+                0 0 0 rgba(128, 128, 128, 0.351);
+    background-color: #ecf3ff;
+    border-radius: 10px;
+  }
+  h1{
+    color: rgba(0, 0, 62, 0.875);
+    font-weight: 400;
+  }
+  h1,h5{
+    font-family: sans-serif;
+  }
+  h5{
+    color: rgb(0, 0, 133);
+    font-size: 120%;
+    font-weight: 500;
+  }
+  .section-col{
+    border: 0 10px 0;
+    border-radius: 10px;
+    background-color: white;
+    padding: 12px 12px 0 12px;
+    box-shadow: 1px 1px 2px #cde0ff,
+                -1px -1px 2px #cde0ff;
+  }

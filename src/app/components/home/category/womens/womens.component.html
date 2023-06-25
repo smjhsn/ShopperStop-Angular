@@ -1,0 +1,52 @@
+<div class="container" >
+    <div class="row" *ngFor="let prod of prodCat " >
+        <div class="row mt-3 mb-3">
+            <div class="col text-center">
+                <h1>{{prod.categoryName}}</h1>
+            </div>
+        </div>
+        <div class="row section-partion justify-content-evenly">
+            <div *ngFor="let f of prod" class="col-sm-3 col-xs-12 section-col mt-3">
+                <div class="row"><img [src]="f.prodImage" alt="img1"></div>
+                <div class="row p-2 productName"><h5>{{f.prodName}}</h5></div>
+                <div class="row align-items-center p-2">
+                    <div class="col-sm-5 col-4 text-secondary"><b>MRP </b>: <del>&#8377;{{f.prodPrice}}</del></div>
+                    <div class="col-sm-5 col-4 text-success"><b>Offer : </b>&#8377;{{f.prodDiscount}}</div>
+                </div>
+                <div class="row p-3">
+                    <div class="col text-center"><button class="button-add" (click)="addCart(f.prodId)">Add to Cart</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-4 image-zoom">
+            <img  src="https://assets.ajio.com/cms/AJIO/WEB/01062023-WHP-D-topcategories-p1-tops&tees-40to80.jpg" alt="mg1">
+        </div>
+        <div class="col-4 image-zoom">
+            <img  src="https://assets.ajio.com/cms/AJIO/WEB/01062023-WHP-D-topcategories-p2-dresses-upto80.jpg" alt="mg1">
+        </div>
+        <div class="col-4 image-zoom">
+            <img  src="https://assets.ajio.com/cms/AJIO/WEB/01062023-WHP-D-topcategories-p4-kurtas&kurtis-40to80.jpg" alt="mg1">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4 image-zoom">
+            <img  src="https://assets.ajio.com/cms/AJIO/WEB/01062023-WHP-D-topcategories-p5-shirts-40to80.jpg" alt="mg1">
+        </div>
+        <div class="col-4 image-zoom">
+            <img  src="https://assets.ajio.com/cms/AJIO/WEB/01062023-WHP-D-topcategories-p9-jewellery-upto80.jpg" alt="mg1">
+        </div>
+        <div class="col-4 image-zoom">
+            <img  src="https://assets.ajio.com/cms/AJIO/WEB/01062023-WHP-D-topcategories-p7-sportsshoes-upto80.jpg" alt="mg1">
+        </div>
+    </div>
+</div> -->
+

@@ -1,0 +1,52 @@
+<div class="section-main">
+    <div class="container section-1">
+        <div class="row justify-content-center">
+            <div class="col">
+                <div class="row justify-content-center mt-4 mb-4">
+                    <div class="col-sm-6 col-10 section-12">
+                        <form [formGroup]="form" (ngSubmit)="onsubmit()">
+                            <h2 class="text-center">Register User Details</h2>
+                            <label for="username" class="form-label mt-4">User Name</label>
+                            <input type="text" class="form-control mt-3" id="username" placeholder="User Name" name="username" formControlName="username">
+                            <div *ngIf="form.get('username')?.invalid && form.get('username')?.touched" class="p-2">
+                                <small class="text-danger">Enter User Name</small>
+                            </div>
+                            <label for="email" class="form-label mt-4">Email</label>
+                            <input type="email" class="form-control mt-3" id="email" placeholder="Email Address" name="email" formControlName="email">
+                            <div *ngIf="form.get('email')?.invalid && form.get('email')?.touched" class="p-2">
+                                <small class="text-danger">Enter Valid Email</small>
+                            </div>
+                            <label for="select" class="form-label mt-4">Select Role</label>
+                            <select name="select" id="select" class="form-control" formControlName="selectRole">
+                                <option value="" selected disabled>Select Any</option>
+                                <option value="user">User</option>
+                                <option value="admin">Admin</option>
+                            </select>
+                            <label for="password" class="form-label mt-4">Password</label>
+                            <input type="password" class="form-control mt-3" id="password" placeholder="Password" name="password" formControlName="password">
+                            <div *ngIf="form.get('password')?.invalid && form.get('password')?.touched" >
+                                <div *ngIf="form.get('password')?.errors?.['minlength']"><small class="p-2 text-danger">Password should be minimum 8 letters</small></div>
+                                <div *ngIf="form.get('password')?.errors?.['required']"><small class="p-2 text-danger">Password Required</small></div>
+                                <div *ngIf="form.get('password')?.errors?.['invalidPassword']"><small class="p-2 text-danger">Password Must Contain 1 char,1num,1 LC,1UC</small></div>
+                            </div>
+                            <label for="confirmPassword" class="form-label mt-4">Confirm Password</label>
+                            <input type="password" class="form-control mt-3" id="confirmPassword" placeholder="Confirm Password" name="confirmPass" formControlName="confirmPass">
+                            <div *ngIf="form.hasError('passwordMismatch') && form.get('confirmPass')?.touched" class="p-2">
+                                <small class="text-danger">Password Doesnot match</small>
+                            </div>
+                            
+                            <div class="row justify-content-center">
+                                <!-- <button class="mt-5 button">Submit</button> -->
+                                <input type="Submit" Value="Submit" class="button mt-5" >
+                            </div>
+                            <div class="row mt-3 justify-content-end">
+                                <div class="col-3 text-end ml-2"><a routerLink="/login">Login</a></div>
+                                <div class="col-3 text-start"><a routerLink="/home">Home</a></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

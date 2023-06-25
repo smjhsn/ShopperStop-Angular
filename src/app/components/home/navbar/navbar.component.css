@@ -1,0 +1,17 @@
+ input[type="search"]{
+    background-color: aliceblue;
+    color: rgb(95, 95, 95);
+}
+span{
+    font-weight: 130%;
+    font-size: 160%;
+}
+a{
+    color: white;
+}
+.navcenter{
+    margin:auto;
+}
+li{
+    padding: 0 10px;
+}

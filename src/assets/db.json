@@ -1,0 +1,304 @@
+{
+  "cartIds": [
+    {
+      "productId": 2102,
+      "categoryId": 201,
+      "userId": 2001,
+      "productImage": "https://assets.ajio.com/medias/sys_master/root/20230403/dQUD/642aed5e907deb497ac660cd/-473Wx593H-443001635-pink-MODEL.jpg",
+      "productName": "RIO Crinkled Shirt with Patch Pocket",
+      "productPrice": 800,
+      "productDiscount": 599,
+      "productQuantity": 2,
+      "id": 3,
+      "finalPrice": 1198
+    },
+    {
+      "productId": 1101,
+      "categoryId": 101,
+      "userId": 2001,
+      "productImage": "https://assets.ajio.com/medias/sys_master/root/20220513/OWCN/627e26ddaeb26921af770461/-473Wx593H-463292672-purple-MODEL.jpg",
+      "productName": "Cotton Shirt by Denis Lingo",
+      "productPrice": 800,
+      "productDiscount": 599,
+      "productQuantity": 6,
+      "id": 4
+    },
+    {
+      "productId": 3103,
+      "categoryId": 302,
+      "userId": 2001,
+      "productImage": "https://assets.ajio.com/medias/sys_master/root/20220315/Lj5Y/622f98d8f997dd03e2120d69/-473Wx593H-420297316-olive-MODEL.jpg",
+      "productName": "TIGERTRAIL Printed  Hoodie  Pockets",
+      "productPrice": 750,
+      "productDiscount": 499,
+      "productQuantity": 3,
+      "id": 5,
+      "finalPrice": 1497
+    }
+  ],
+  "registerDetails": [
+    {
+      "id": 2001,
+      "name": "jameel",
+      "email": "jameel@gmail.com",
+      "password": "Jameel1@",
+      "confirmPassword": "Jameel1@"
+    },
+    {
+      "id": 2002,
+      "name": "fayaz",
+      "email": "fayaz@gmail.com",
+      "password": "Fayaz1@@",
+      "confirmPassword": "Fayaz1@@"
+    },
+    {
+      "id": 2003,
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "confirmPassword": "admin"
+    }
+  ],
+  "mensProduct": [
+    {
+      "id": 1,
+      "prodId": 1101,
+      "prodImage": "https://assets.ajio.com/medias/sys_master/root/20220513/OWCN/627e26ddaeb26921af770461/-473Wx593H-463292672-purple-MODEL.jpg",
+      "prodName": "Cotton Shirt by Denis Lingo",
+      "prodCategory": 101,
+      "prodPrice": 800,
+      "prodDiscount": 599
+    },
+    {
+      "id": 2,
+      "prodId": 1102,
+      "prodImage": "https://assets.ajio.com/medias/sys_master/root/20220513/Bzem/627e23eaaeb26921af76c88d/-473Wx593H-464175602-grey-MODEL.jpg",
+      "prodName": "Lenin Shirt by High Lander",
+      "prodCategory": 101,
+      "prodPrice": 900,
+      "prodDiscount": 699
+    },
+    {
+      "id": 3,
+      "prodId": 1103,
+      "prodImage": "https://assets.ajio.com/medias/sys_master/root/20220519/xGGR/62864079f997dd03e2f38316/-473Wx593H-463810814-black-MODEL.jpg",
+      "prodName": "Regular Solid fit by andrew",
+      "prodCategory": 103,
+      "prodPrice": 800,
+      "prodDiscount": 299
+    },
+    {
+      "id": 4,
+      "prodId": 1104,
+      "prodImage": "https://assets.ajio.com/medias/sys_master/root/20220818/bqiJ/62fde390aeb269176182d5d3/-473Wx593H-464034617-grey-MODEL.jpg",
+      "prodName": "Solid slim Fit by IVOC",
+      "prodCategory": 102,
+      "prodPrice": 1300,
+      "prodDiscount": 799
+    },
+    {
+      "id": 5,
+      "prodId": 1105,
+      "prodImage": "https://assets.ajio.com/medias/sys_master/root/20220513/nBbs/627e2450aeb26921af76d0b9/-473Wx593H-463528872-multi-MODEL.jpg",
+      "prodName": "Cotton Shirt by Denis Lingo",
+      "prodCategory": 101,
+      "prodPrice": 800,
+      "prodDiscount": 599
+    },
+    {
+      "id": 6,
+      "prodId": 1106,
+      "prodName": "KETCH Slim Fit Shirt with Patch Pocket",
+      "prodImage": "https://assets.ajio.com/medias/sys_master/root/20220317/j2sK/62324168f997dd03e21989a3/-473Wx593H-469034702-black-MODEL6.jpg",
+      "prodCategory": 101,
+      "prodPrice": 899,
+      "prodDiscount": 599
+    },
+    {
+      "prodId": 1107,
+      "prodName": "feresco cotton blend shorts",
+      "prodImage": "https://assets.ajio.com/medias/sys_master/root/20220125/xEc2/61ef04e3aeb2695cdd2b03c8/-473Wx593H-440672489-teal-MODEL4.jpg",
+      "prodCategory": 103,
+      "prodPrice": 599,
+      "prodDiscount": 399,
+      "id": 7
+    }
+  ],
+  "menscategory": [
+    {
+      "catId": 101,
+      "catName": "Shirts"
+    },
+    {
+      "catId": 102,
+      "catName": "Pants"
+    },
+    {
+      "catId": 103,
+      "catName": "Shorts"
+    }
+  ],
+  "womensProduct": [
+    {
+      "id": 1,
+      "prodId": 2101,
+      "prodImage": "https://assets.ajio.com/medias/sys_master/root/20221006/EH2K/633ef755f997ddfdbd09dd7f/-473Wx593H-441149293-black-MODEL.jpg",
+      "prodName": "DNMX Checked Shirt with Placket",
+      "prodCategory": 201,
+      "prodPrice": 800,
+      "prodDiscount": 399
+    },
+    {
+      "id": 2,
+      "prodId": 2102,
+      "prodImage": "https://assets.ajio.com/medias/sys_master/root/20230403/dQUD/642aed5e907deb497ac660cd/-473Wx593H-443001635-pink-MODEL.jpg",
+      "prodName": "RIO Crinkled Shirt with Patch Pocket",
+      "prodCategory": 201,
+      "prodPrice": 800,
+      "prodDiscount": 599
+    },
+    {
+      "id": 3,
+      "prodId": 2103,
+      "prodImage": "https://assets.ajio.com/medias/sys_master/root/20221223/Q5ps/63a4e93df997ddfdbdef5936/-473Wx593H-464833382-red-MODEL.jpg",
+      "prodName": "WEDANI Paisley Print Straight Kurta",
+      "prodCategory": 202,
+      "prodPrice": 1100,
+      "prodDiscount": 899
+    },
+    {
+      "id": 4,
+      "prodId": 2104,
+      "prodImage": "https://assets.ajio.com/medias/sys_master/root/20220927/oSEc/6333285ff997dd1f8d20874d/-473Wx593H-441148711-ltolive-MODEL.jpg",
+      "prodName": "FUSION Floral Round-Neck Straight Kurta",
+      "prodCategory": 202,
+      "prodPrice": 1200,
+      "prodDiscount": 799
+    },
+    {
+      "id": 5,
+      "prodId": 2105,
+      "prodImage": "https://assets.ajio.com/medias/sys_master/root/20221104/KmqW/63653548f997ddfdbd5936a6/-473Wx593H-443003915-jetblack-MODEL.jpg",
+      "prodName": "RIO Dobby Weave Shirt with Slip",
+      "prodCategory": 201,
+      "prodPrice": 800,
+      "prodDiscount": 499
+    },
+    {
+      "prodId": 2106,
+      "prodName": "Floral Print Straight Kurta Set",
+      "prodImage": "https://assets.ajio.com/medias/sys_master/root/20230113/qN6F/63c0f068f997dd708e050a08/-473Wx593H-465509166-black-MODEL5.jpg",
+      "prodCategory": 202,
+      "prodPrice": 1200,
+      "prodDiscount": 899,
+      "id": 6
+    },
+    {
+      "prodId": 2107,
+      "prodName": "Floral Print Straight Kurta",
+      "prodImage": "https://assets.ajio.com/medias/sys_master/root/20220812/O4A6/62f64348aeb26921afe5d068/-473Wx593H-464811496-maroon-MODEL5.jpg",
+      "prodCategory": 202,
+      "prodPrice": 1200,
+      "prodDiscount": 899,
+      "id": 7
+    }
+  ],
+  "womenscategory": [
+    {
+      "catId": 201,
+      "catName": "Shirts"
+    },
+    {
+      "catId": 202,
+      "catName": "Kurta"
+    }
+  ],
+  "kidsProduct": [
+    {
+      "id": 1,
+      "prodId": 3101,
+      "prodImage": "https://assets.ajio.com/medias/sys_master/root/20230120/FnGM/63ca7455aeb269c651ed8249/-473Wx593H-464131350-multi-MODEL.jpg",
+      "prodName": "FORCE Geometric Round Neck T-shirt",
+      "prodCategory": 301,
+      "prodPrice": 600,
+      "prodDiscount": 199
+    },
+    {
+      "id": 2,
+      "prodId": 3102,
+      "prodImage": "https://assets.ajio.com/medias/sys_master/root/20230120/eGwR/63ca7576f997dd708e155edb/-473Wx593H-464402062-blue-MODEL.jpg",
+      "prodName": "FORCE Typographic Print Slim Fit T-shirt",
+      "prodCategory": 301,
+      "prodPrice": 600,
+      "prodDiscount": 299
+    },
+    {
+      "id": 3,
+      "prodId": 3103,
+      "prodImage": "https://assets.ajio.com/medias/sys_master/root/20220315/Lj5Y/622f98d8f997dd03e2120d69/-473Wx593H-420297316-olive-MODEL.jpg",
+      "prodName": "TIGERTRAIL Printed  Hoodie  Pockets",
+      "prodCategory": 302,
+      "prodPrice": 750,
+      "prodDiscount": 499
+    },
+    {
+      "id": 4,
+      "prodId": 3104,
+      "prodImage": "https://assets.ajio.com/medias/sys_master/root/20220712/MXvL/62cc6f8daeb26921af70e9c4/-473Wx593H-441295135-blue-MODEL.jpg",
+      "prodName": "POINT COVE Graphic Print Cotton Hoodie",
+      "prodCategory": 302,
+      "prodPrice": 600,
+      "prodDiscount": 399
+    },
+    {
+      "id": 5,
+      "prodId": 3105,
+      "prodImage": "https://assets.ajio.com/medias/sys_master/root/20230120/FJEd/63ca76abf997dd708e158a4b/-473Wx593H-464855097-white-MODEL.jpg",
+      "prodName": "FORCE Geometric Printed T-shirt",
+      "prodCategory": 301,
+      "prodPrice": 500,
+      "prodDiscount": 199
+    },
+    {
+      "prodId": 3106,
+      "prodName": "Girl Outwear printed Cotton",
+      "prodImage": "https://assets.ajio.com/medias/sys_master/root/20230316/SHE1/64130278aeb26924e3c64514/-473Wx593H-420416565-pink-MODEL3.jpg",
+      "prodCategory": 302,
+      "prodPrice": 699,
+      "prodDiscount": 399,
+      "id": 6
+    }
+  ],
+  "kidscategory": [
+    {
+      "catId": 301,
+      "catName": "T-Shirts"
+    },
+    {
+      "catId": 302,
+      "catName": "Outwear"
+    }
+  ],
+  "carouselImages1": [
+    {
+      "imagePath": "../../../../assets/04062023-UHP-D-Main-P3-FossilFCUK-Upto70.avif"
+    },
+    {
+      "imagePath": "../../../../assets/04062023-UHP-D-Main-P6-USPA-Min55.avif"
+    },
+    {
+      "imagePath": "../../../../assets/01062023-UHP-Mainbanner-D-5090.gif"
+    }
+  ],
+  "carouselImages2": [
+    {
+      "imagePath": "../../../../assets/image1.avif"
+    },
+    {
+      "imagePath": "../../../../assets/image1 (2).avif"
+    },
+    {
+      "imagePath": "../../../../assets/image3.avif"
+    }
+  ]
+}

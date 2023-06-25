@@ -1,0 +1,33 @@
+.button-add{
+    background-color: #FF9F01;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    transition: background-color,0.3s;
+    width: 90%;
+  }
+  .button-add:hover{
+    background-color: #FB641B;
+  }
+  h5{
+    color: rgb(0, 0, 133);
+    font-size: 120%;
+    font-weight: 500;
+  }
+  .section-partion{
+    border:none;
+    padding: 30px;
+    box-shadow: 0 4px 3px rgba(128, 128, 128, 0.351),
+                0 0 0 rgba(128, 128, 128, 0.351);
+    background-color: #ecf3ff;
+    border-radius: 10px;
+  }
+  .section-col{
+    border: 0 10px 0;
+    border-radius: 10px;
+    background-color: white;
+    padding: 12px 12px 0 12px;
+    box-shadow: 1px 1px 2px #cde0ff,
+                -1px -1px 2px #cde0ff;
+  }
